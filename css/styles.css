@@ -62,7 +62,8 @@ body {
   align-items: center;
 }
 
-.header-nav {}
+.header-nav {
+}
 
 .header-logo {
   color: #275f7a;
@@ -95,7 +96,8 @@ body {
   color: #275f7a;
 }
 
-.header-address {}
+.header-address {
+}
 
 .header-address-link {
   color: #275f7a;
@@ -147,7 +149,8 @@ body {
   align-items: center;
 }
 
-.section {}
+.section {
+}
 
 .benefits {
   background-color: #275f7a;
@@ -192,9 +195,11 @@ body {
 
 /* about */
 
-.section {}
+.section {
+}
 
-.about {}
+.about {
+}
 
 .about-container {
   display: flex;
@@ -223,7 +228,8 @@ body {
   display: flex;
 }
 
-.about-item {}
+.about-item {
+}
 
 .about-item-text {
   color: #2e363e;
@@ -468,7 +474,8 @@ body {
 }
 
 /* Page - Offers */
-.offers {}
+.offers {
+}
 
 .offers-title {
   color: #2e363e;
@@ -479,7 +486,8 @@ body {
   margin-bottom: 45px;
 }
 
-.offers-list {}
+.offers-list {
+}
 
 .offers-item {
   padding: 80px 40px;
@@ -565,6 +573,16 @@ body {
   background-color: rgba(0, 0, 0, 0.56);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .modal {
   width: 650px;
   min-height: 854px;
@@ -581,11 +599,10 @@ body {
   height: 24px;
   border-radius: 50%;
   border: none;
-  background-color: #022C40;
+  background-color: #022c40;
   position: absolute;
   top: 24px;
   right: 24px;
-
 }
 
 .modal-subtitle {
@@ -604,12 +621,12 @@ body {
   width: 143px;
   height: 2px;
   content: "";
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
   display: block;
 }
 
 .modal-title {
-  color: #022C40;
+  color: #022c40;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.25;
@@ -622,14 +639,15 @@ body {
 }
 
 .modal-text {
-  color: #022C40;
+  color: #022c40;
   font-size: 16px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   margin-bottom: 23px;
 }
 
-.modal-form {}
+.modal-form {
+}
 
 .modal-label {
   margin-bottom: 23px;
@@ -640,7 +658,7 @@ body {
   width: 100%;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #CACACA;
+  border: 1px solid #cacaca;
   background-color: transparent;
   padding-left: 21px;
   outline: transparent;
@@ -648,7 +666,7 @@ body {
 
 .modal-input:focus,
 .modal-message:focus {
-  border-color: #022C40;
+  border-color: #022c40;
 }
 
 .modal-input::placeholder {
@@ -667,7 +685,7 @@ body {
   width: 100%;
   height: 149px;
   border-radius: 5px;
-  border: 1px solid #CACACA;
+  border: 1px solid #cacaca;
   background-color: transparent;
   padding: 21px;
   resize: none;
@@ -684,9 +702,9 @@ body {
 .modal-btn {
   min-width: 181px;
   height: 48px;
-  background-color: #022C40;
+  background-color: #022c40;
   border-radius: 5px;
-  color: #FFF;
+  color: #fff;
 
   text-align: center;
   font-size: 16px;
