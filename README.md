@@ -9,4 +9,4 @@
 - Decoration & Effects;
 - Box model & FlexBox;
 - Functional Forms;
-- Responsive layout;
+- Responsive layout; 
