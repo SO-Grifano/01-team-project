@@ -108,12 +108,6 @@ body {
 
 /* Hero */
 
-.hero {
-}
-
-.container {
-}
-
 .hero-title {
   color: #2e363e;
   font-size: 48px;
@@ -256,7 +250,7 @@ body {
 
 /* Review */
 
-.section-review {
+.section.review {
   background-color: #275f7a;
   padding: 100px 0;
 }
@@ -285,7 +279,7 @@ body {
   line-height: 1.25;
   letter-spacing: 0.03em;
   max-width: 440px;
-  margin-bottom: 50px;
+  margin-bottom: 91px;
 }
 .review-list {
   display: flex;
@@ -309,6 +303,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -58px;
   margin-bottom: 12px;
 }
 .review-item-title {
@@ -458,4 +453,83 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.1;
+}
+
+/* Page - Offers */
+.offers {
+}
+.offers-title {
+  color: #2e363e;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 45px;
+}
+.offers-list {
+}
+.offers-item {
+  padding: 80px 40px;
+  border-radius: 10px;
+  background: #e3f2f9;
+  box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  gap: 40px;
+}
+.offers-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.offers-item-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+.offers-item-head {
+  display: flex;
+  justify-content: space-between;
+  max-width: 315px;
+}
+.offers-img {
+  flex-shrink: 0;
+}
+.offers-price {
+  color: #434b53;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.offers-text {
+  color: #2e363e;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.offers-item-title {
+  color: #2e363e;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.offers-item-button {
+  margin-top: 2px;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  color: #275f7a;
+  font-size: 17px;
+  line-height: 1.1;
+  position: relative;
+  padding-bottom: 5px;
+}
+.offers-item-button::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #275f7a;
 }
